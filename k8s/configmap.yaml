@@ -1,0 +1,7 @@
+apiVErsion: v1
+kind: ConfigMap
+metadata: 
+  name: demo-ConfigMap
+  namespace: demo
+data: 
+  LOG_LEVEL: info #log only key operational messages.
